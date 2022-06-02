@@ -4,7 +4,7 @@
     "type": "decibel-app",
     "license": "MIT",
     "require": {
-        "bp-packages/installer": "^0",
+        "composer/installer": "~1.0",
         "dompdf/dompdf": "^1.2"
     },
     "authors": [
@@ -13,9 +13,18 @@
             "email": "dev@leomaciel.com"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "BpPackages\\": "src/Libraries/"
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/bp-packages/budget.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "installer-paths": {
+            "../{$name}/": [
+                "bp-packages/budget"
+            ]
         }
     }
 }
