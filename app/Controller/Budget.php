@@ -2,10 +2,10 @@
 
 namespace BpPackages\Budget;
 
-class Budget
+class Budget extends BaseController
 {
     function create()
     {
-        return 'Hello';
+        return view('budget');
     }
 }

@@ -1,6 +1,7 @@
 {
     "name": "bp-packages/budget",
     "description": "CRUD budget",
+    "type": "library",
     "license": "MIT",
     "require": {
         "codeigniter4/framework": "^4.0",
@@ -15,17 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "BpPackages\\Budget\\": "app/Libraries"
+            "BpPackages\\Budget\\": "app/"
         }
-    },
-    "type": "composer-installer",
-    "extra": {
-        "path": "extensions/"
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.cartalyst.com"
-        }
-    ]
+    }
 }
