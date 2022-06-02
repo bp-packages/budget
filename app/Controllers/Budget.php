@@ -1,6 +1,6 @@
 <?php
 
-namespace BpPackages\Budget;
+namespace BpPackages;
 
 class Budget extends BaseController
 {
