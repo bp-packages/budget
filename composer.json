@@ -6,7 +6,7 @@
     "require": {
         "codeigniter4/framework": "^4.0",
         "composer/installers": "~1.0",
-        "oomphinc/composer-installers-extender": "^1.1",
+        "oomphinc/composer-installers-extender": "~2.0",
         "dompdf/dompdf": "^1.2"
     },
     "authors": [
@@ -22,14 +22,14 @@
     },
     "extra": {
         "installer-types": [
-            "library"
+            "codeigniter-library"
         ],
         "installer-paths": {
             "./app/Libraries/": [
                 "bp-packages/budget"
             ],
             "./app/Views/{$name}/": [
-                "type:library"
+                "type:codeigniter-library"
             ]
         }
     }
