@@ -2,6 +2,7 @@
     "name": "bp-packages/budget",
     "description": "CRUD budget",
     "type": "library",
+    "license": "MIT",
     "require": {
         "codeigniter4/appstarter": "4",
         "composer/installers": "~1.0",
