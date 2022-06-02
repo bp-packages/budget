@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "BpPackages\\Budget\\": "app/Controller/Budget"
+            "BpPackages\\": "app/Controllers/"
         }
     }
 }
