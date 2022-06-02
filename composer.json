@@ -1,7 +1,7 @@
 {
     "name": "bp-packages/budget",
     "description": "CRUD budget",
-    "type": "cakephp-plugin",
+    "type": "codeigniter-third-party",
     "license": "MIT",
     "require": {
         "codeigniter4/framework": "^4.0",
@@ -22,14 +22,8 @@
     "extra": {
         "installer-name": "mina",
         "installer-paths": {
-            "../{$name}/": [
+            "../": [
                 "bp-packages/budget"
-            ],
-            "app/Libraries/": [
-                "bp-packages/budget"
-            ],
-            "app/Views/{$name}/": [
-                "type:library"
             ]
         }
     }
