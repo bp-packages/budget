@@ -4,7 +4,6 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "codeigniter4/framework": "^4.0",
         "dompdf/dompdf": "^1.2"
     },
     "authors": [
@@ -15,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "BpPackages\\Budget\\": "app/"
+            "BpPackages\\Budget\\": "app/Controller/Budget"
         }
     }
 }
