@@ -1,7 +1,7 @@
 {
     "name": "bp-packages/budget",
     "description": "CRUD budget",
-    "type": "codeigniter-library",
+    "type": "library",
     "license": "MIT",
     "require": {
         "codeigniter4/framework": "^4.0",
@@ -21,10 +21,10 @@
     },
     "extra": {
         "installer-paths": {
-            "app/Libraries/{$name}": [
+            "./app/Libraries/{$name}": [
                 "bp-packages/budget"
             ],
-            "app/Views/{$name}": [
+            "./app/Views/{$name}": [
                 "bp-packages/budget"
             ]
         }
