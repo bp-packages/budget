@@ -6,5 +6,6 @@ class Budget
 {
     function create()
     {
+        return 'Hello';
     }
 }
