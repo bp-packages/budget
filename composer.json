@@ -22,7 +22,7 @@
     "minimum-stability": "dev",
     "extra": {
         "installer-paths": {
-            "../{$name}/": [
+            "../Libraries/{$name}/": [
                 "bp-packages/budget"
             ]
         }
