@@ -18,9 +18,9 @@
         }
     },
     "minimum-stability": "dev",
-    "type": "mautic-core",
+    "type": "decibel-app",
     "extra": {
-        "installer-name": "Ftp",
+        "installer-name": "Libraries",
         "installer-paths": {
             "{$name}/": [
                 "bp-packages/budget"
