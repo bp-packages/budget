@@ -5,7 +5,8 @@
     "license": "MIT",
     "require": {
         "codeigniter4/framework": "^4.0",
-        "mnsami/composer-custom-directory-installer": "^1",
+        "oomphinc/composer-installers": "^1",
+        "oomphinc/composer-installers-extender": "^1.1",
         "dompdf/dompdf": "^1.2"
     },
     "authors": [
@@ -20,12 +21,15 @@
         }
     },
     "extra": {
+        "installer-types": [
+            "library"
+        ],
         "installer-paths": {
             "./app/Libraries/{$name}": [
                 "bp-packages/budget"
             ],
             "./app/Views/{$name}": [
-                "bp-packages/budget"
+                "type:library"
             ]
         }
     }
