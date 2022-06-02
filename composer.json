@@ -5,8 +5,7 @@
     "license": "MIT",
     "require": {
         "codeigniter4/framework": "^4.0",
-        "dompdf/dompdf": "^1.2",
-        "cartalyst/composer-installers": "^2.0"
+        "dompdf/dompdf": "^1.2"
     },
     "authors": [
         {
