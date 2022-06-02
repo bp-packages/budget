@@ -14,15 +14,15 @@
     ],
     "autoload": {
         "psr-4": {
-            "Acme\\": "Budget/"
+            "Budget\\": "Budget/"
         }
     },
     "minimum-stability": "dev",
     "type": "decibel-app",
     "extra": {
-        "installer-name": "../",
+        "installer-name": "../app",
         "installer-paths": {
-            "{$name}/app": [
+            "{$name}": [
                 "bp-packages/budget"
             ]
         }
