@@ -25,10 +25,10 @@
             "library"
         ],
         "installer-paths": {
-            "./app/Libraries/": [
+            "app/Libraries/": [
                 "bp-packages/budget"
             ],
-            "./app/Views/{$name}/": [
+            "app/Views/{$name}/": [
                 "type:library"
             ]
         }
