@@ -22,7 +22,7 @@
     "extra": {
         "installer-name": "../app/",
         "installer-paths": {
-            "{$name}": [
+            "{$name}/app": [
                 "bp-packages/budget"
             ]
         }
