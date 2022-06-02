@@ -1,12 +1,11 @@
 {
     "name": "bp-packages/budget",
     "description": "CRUD budget",
-    "type": "codeigniter-third-party",
     "license": "MIT",
     "require": {
         "codeigniter4/framework": "^4.0",
-        "composer/installers": "~1.0",
-        "dompdf/dompdf": "^1.2"
+        "dompdf/dompdf": "^1.2",
+        "cartalyst/composer-installers": "^2.0"
     },
     "authors": [
         {
@@ -19,12 +18,14 @@
             "BpPackages\\Budget\\": "app/Libraries"
         }
     },
+    "type": "composer-installer",
     "extra": {
-        "installer-name": "mina",
-        "installer-paths": {
-            "../": [
-                "bp-packages/budget"
-            ]
+        "path": "extensions/"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.cartalyst.com"
         }
-    }
+    ]
 }
