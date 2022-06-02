@@ -1,9 +1,10 @@
 {
     "name": "bp-packages/budget",
     "description": "CRUD budget",
-    "type": "library",
+    "type": "codeigniter-library",
     "license": "MIT",
     "require": {
+        "bp-packages/installer": "^0",
         "dompdf/dompdf": "^1.2"
     },
     "authors": [
