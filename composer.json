@@ -20,9 +20,9 @@
     "minimum-stability": "dev",
     "type": "decibel-app",
     "extra": {
-        "installer-name": "Libraries",
+        "installer-name": "../",
         "installer-paths": {
-            "{$name}/": [
+            "../{$name}/": [
                 "bp-packages/budget"
             ]
         }
