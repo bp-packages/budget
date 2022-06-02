@@ -22,14 +22,14 @@
     },
     "extra": {
         "installer-types": [
-            "codeigniter-library"
+            "library"
         ],
         "installer-paths": {
             "./app/Libraries/": [
                 "bp-packages/budget"
             ],
             "./app/Views/{$name}/": [
-                "type:codeigniter-library"
+                "type:library"
             ]
         }
     }
