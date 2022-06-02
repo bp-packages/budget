@@ -2,7 +2,7 @@
 
 namespace BpPackages;
 
-class Budget extends BaseController
+class Controller extends BaseController
 {
     function create()
     {

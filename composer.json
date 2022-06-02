@@ -12,15 +12,19 @@
             "email": "dev@leomaciel.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://github.com/bp-packages/budget.git"
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "Budget/"
         }
-    ],
+    },
     "minimum-stability": "dev",
-    "type": "decibel-app",
+    "type": "mautic-core",
     "extra": {
-        "installer-name": "Ftp"
+        "installer-name": "Ftp",
+        "installer-paths": {
+            "{$name}/": [
+                "bp-packages/budget"
+            ]
+        }
     }
 }
