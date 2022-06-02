@@ -1,10 +1,9 @@
 {
     "name": "bp-packages/budget",
     "description": "CRUD budget",
-    "type": "decibel-app",
     "license": "MIT",
     "require": {
-        "composer/installers": "~1.0",
+        "composer/installers": "~2.0",
         "dompdf/dompdf": "^1.2"
     },
     "authors": [
@@ -20,11 +19,8 @@
         }
     ],
     "minimum-stability": "dev",
+    "type": "decibel-app",
     "extra": {
-        "installer-paths": {
-            "../Libraries/{$name}/": [
-                "bp-packages/budget"
-            ]
-        }
+        "installer-name": "Ftp"
     }
 }
