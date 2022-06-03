@@ -20,7 +20,7 @@
     "minimum-stability": "dev",
     "type": "decibel-app",
     "extra": {
-        "installer-name": "../MODULOS",
+        "installer-name": "MODULOS",
         "installer-paths": {
             "{$name}": [
                 "bp-packages/budget"
