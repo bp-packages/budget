@@ -2,6 +2,10 @@
     "name": "bp-packages/budget",
     "description": "CRUD budget",
     "license": "MIT",
+    "require": {
+        "composer/installers": "~2.0",
+        "dompdf/dompdf": "^1.2"
+    },
     "authors": [
         {
             "name": "leomaciel",
@@ -10,11 +14,17 @@
     ],
     "autoload": {
         "psr-4": {
-            "Budget\\": "src/"
+            "BpPackage\\Budget\\": "src/"
         }
     },
-    "type": "phpdocumentor-template",
-    "require": {
-        "bp-packages/installer": "0.0.16"
+    "minimum-stability": "dev",
+    "type": "decibel-app",
+    "extra": {
+        "installer-name": "MODULOS/Budget",
+        "installer-paths": {
+            "{$name}": [
+                "bp-packages/budget"
+            ]
+        }
     }
 }
