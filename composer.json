@@ -2,10 +2,6 @@
     "name": "bp-packages/budget",
     "description": "CRUD budget",
     "license": "MIT",
-    "require": {
-        "composer/installers": "~2.0",
-        "dompdf/dompdf": "^1.2"
-    },
     "authors": [
         {
             "name": "leomaciel",
@@ -17,6 +13,8 @@
             "Budget\\": "src/"
         }
     },
-    "minimum-stability": "dev",
-    "type": "codeigniter-library"
+    "type": "phpdocumentor-template",
+    "require": {
+        "phpdocumentor/template-installer-plugin": "*"
+    }
 }
