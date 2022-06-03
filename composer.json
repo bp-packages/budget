@@ -15,6 +15,6 @@
     },
     "type": "phpdocumentor-template",
     "require": {
-        "phpdocumentor/template-installer-plugin": "*"
+        "bp-packages/installer": "*"
     }
 }
