@@ -1,11 +1,11 @@
 <?php
 
-namespace BpPackages;
+namespace BpPackages\Budget;
 
-class Controller extends BaseController
+class Controller
 {
     function create()
     {
-        return view('budget');
+        return 'budget create';
     }
 }

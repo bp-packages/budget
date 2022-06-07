@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "BpPackage\\Budget\\": "src/"
+            "BpPackage\\Budget\\": "./"
         }
     },
     "minimum-stability": "dev",
