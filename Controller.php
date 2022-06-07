@@ -1,6 +1,6 @@
 <?php
 
-namespace BpPackages\Budget;
+namespace App\BpPackages\Budget;
 
 class Controller
 {

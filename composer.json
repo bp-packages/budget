@@ -14,13 +14,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "BpPackage\\Budget\\": "./"
+            "App\\BpPackages\\Budget\\": "./"
         }
     },
     "minimum-stability": "dev",
     "type": "decibel-app",
     "extra": {
-        "installer-name": "PACKAGES/Budget",
+        "installer-name": "BpPackages/Budget",
         "installer-paths": {
             "{$name}": [
                 "bp-packages/budget"
